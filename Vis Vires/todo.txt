@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+Todo list of things todo.
+-------------------------------------------------
+# Fix navigation pane
+    Specifically the margins/borders/padding so
+    everything fits within the bar.
+# Make relevant art
+    Banner.
+    Hero.
+    Background Art.
+# Compile relevant icons
+    Such as external links to youtube, wowprogress, Raider.io, feeds
+# Bootstrap
+    Consider making buttons for ^ABOVE^
+    Add additional formatting to the page.
+# Contact form
+    Bootstrap a page that allows a contact form.
+    - Could be a recruitment section? See below
+# Add News
+    Maybe plug in wowhead api or something to display general news.
+    Pin a sticky for specific news.
+    - Could use Wordpress and develop a theme using Bootstrap so that it matches the rest of the site, not sure if we want RSS Feeds as
+    it's just unnecessary clutter... Should be more dedicated to news from us and V.V.
+# Add "Games We Play Section"
+    Vector images of games we Play
+    On hover over, enlarge image of game icons
+# Add About Us Section
+    - Who we are, how we got started, # of members, Goals
+# Add Recruitment Form/Section/Reach Out Method
+# Add Sitemap and robot.txt at the end of the entire project so we rank in search engines properly
+
+
+
+
+
+#
+#
+#
+#
+#
+#
+#
+#
