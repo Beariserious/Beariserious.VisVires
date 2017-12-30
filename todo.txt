@@ -28,7 +28,7 @@ Todo list of things todo.
     - Who we are, how we got started, # of members, Goals
 # Add Recruitment Form/Section/Reach Out Method
 # Add Sitemap and robot.txt at the end of the entire project so we rank in search engines properly
-
+ asdf
 
 
 
