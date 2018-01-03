@@ -1,4 +1,120 @@
-/* styles.css can you see this bucky?*/
+
+/* Colors 
+    background colors: #23272A,
+    lighter background color: 
+
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #23272A;  
+}
+
+
+/* ----------- Header ----------- */
+
+.header {
+    height: 95vh;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+.logo-text-box {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 55px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.header-links {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0px;
+    padding: 10px;
+}
+
+.header-links a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-links a:active,
+.header-links a:hover {
+    background-color: #23272A;
+}
+
+.text-header-link {
+    padding-top: 0px;
+}
+
+
+.discord-logo-white {
+    height: 45px;
+    width: auto;
+    margin: 0;
+    padding-top: 0;
+    background-color: none;
+    padding-bottom: 10px;
+}
+
+
+
+.join-btn {
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 2px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 5px;
+}
+
+.join-btn:link,
+.join-btn:visited {
+    background-color: red;
+    text-decoration: none;
+    border: 2px solid red;
+}
+
+.join-btn:hover {
+    background-color: #c40000;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #c40000;
+}
+
+.join-btn:active {
+    background-color: #c40000;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    border: 2px solid #c40000;
+}
+
+
+/* ---- About-Us Section ---- */
+
+
+
+/* ---- Universals ---- */
+
 
 body {
   font-family: Raleway;
@@ -6,30 +122,19 @@ body {
   background-color: #23272A;
 }
 
-#discord {
-  margin-top: 0px;
-  padding-left: 14px;
-  padding-right: 16px;
 
-}
 
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #2C2F33;
+  
   /*position: fixed;*/
   top: 2;
   width: 100%;
 }
 
-a {
-  display: block;
-  padding: 8px;
-  background-color:;
-  margin: 0;
-}
 
 li {
   float: left;
@@ -37,45 +142,50 @@ li {
 }
 
 li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
-  padding; 14px 16px;
   text-decoration: none;
   margin-top: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
 }
 
 li a:hover {
-  background-color: #E82C23
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid red;
 }
 
-.active {
-  background-color: #E82C23;
-}
-
-#vv1 {
-  padding: 50px;
-  text-align: center;
-  font-size: 80px;
-  color: #e82C23;
-  background-image: url(images\vastspace.jpg);
-  margin-top: 0px;
-}
-
-#about-us {
-  text-align: center;
-  padding: 0px;
-  margin: auto;
-  width: 50%;
-  color: white;
-  background-color: #23272A;
-}
 
 p {
   font-size: 18px;
   font-family: Merriweather;
 }
-.jumbotron {
-  background-color: #23272A;
 
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+    font-weight: 400;
+    text-transform: uppercase;
 }
+
+a:hover,
+a:active {
+    text-decoration: none;
+    background-color: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.col {
+    float: left;
+    display: inline-block;
+}
+
