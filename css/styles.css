@@ -20,7 +20,7 @@
     height: 95vh;
     background-size: cover;
     background-position: top;
-    position: relative;
+    position:relative;
 }
 
 .logo-text-box {
@@ -108,6 +108,14 @@
     border: 2px solid #c40000;
 }
 
+.nav {
+    height: auto;
+    text-align: center;
+    position: relative;
+
+}
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {min-height:32px !important}
 
 /* ---- About-Us Section ---- */
 
