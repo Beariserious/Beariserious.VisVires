@@ -4,6 +4,7 @@ Todo list of things todo.
 # Fix navigation pane
     Specifically the margins/borders/padding so
     everything fits within the bar.
+    - Fix the navigation so that the div container goes the entire width of the viewport/row. Not just that little section
 # Make relevant art
     Banner.
     Hero.
