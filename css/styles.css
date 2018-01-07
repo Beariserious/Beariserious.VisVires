@@ -16,110 +16,68 @@
 
 /* ----------- Header ----------- */
 
-.header {
-    height: 95vh;
-    background-size: cover;
-    background-position: top;
-    position:relative;
+header {
+    margin: 0;
+    padding-bottom: 0;
+    background-color: #23272a;
 }
 
-.logo-text-box {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    font-size: 55px;
-    color: #fff;
+.header-container {
+    color: #23272A;
+}
+
+.logo-box {
+    height: auto;
+    width: auto;
+    background-size: cover;
+    display: block;
+}
+
+.logo-box img {
+    background-image: 110%;
+    padding-left: 2px;
+    display: inline-block;
+    background-position: center;
+    z-index: 1;
+}
+
+.navbar-nav {
+    min-height: 30px;
+    display: block;
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.vis-vires-logo {
+    padding-bottom: 25px;
+    z-index: 2;
+    top: 50%;
+    padding: 0 0;
+    margin: 0 0;
     background-color: transparent;
 }
 
-.header-links {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    font-size: 25px;
-    text-align: center;
-    padding-top: 0px;
-    padding: 10px;
-}
-
-.header-links a {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.header-links a:active,
-.header-links a:hover {
+.navbar-nav li {
+    display: inline-block;
+    float: none;
     background-color: #23272A;
+    border: none;
 }
 
-.text-header-link {
-    padding-top: 0px;
-}
-
-
-.discord-logo-white {
-    height: 45px;
-    width: auto;
-    margin: 0;
-    padding-top: 0;
-    background-color: none;
-    padding-bottom: 10px;
-}
-
-
-
-.join-btn {
-    position: absolute;
-    top:30%;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: 30px;
-    color: #fff;
-    background-color: #fff;
-    border-radius: 100px;
-    border: 2px solid red;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 5px;
-}
-
-.join-btn:link,
-.join-btn:visited {
+.navbar-nav li:active,
+.navbar-nav li:hover {
     background-color: red;
-    text-decoration: none;
-    border: 2px solid red;
 }
 
-.join-btn:hover {
-    background-color: #c40000;
+.jumbotron {
+    background-color: #23272A;
     color: #fff;
-    text-decoration: none;
-    border: 2px solid #c40000;
 }
 
-.join-btn:active {
-    background-color: #c40000;
-    color: #fff;
-    text-decoration: none;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-    border: 2px solid #c40000;
-}
 
-.nav {
-    height: auto;
-    text-align: center;
-    position: relative;
 
-}
-.navbar-nav > li > a, .navbar-brand {
-    padding-top:4px !important;
-    padding-bottom:0 !important;
-    height: 28px;
-}
-.navbar {min-height:28px !important;}
 
 /* ---- About-Us Section ---- */
 
@@ -134,70 +92,4 @@ body {
   background-color: #23272A;
 }
 
-
-
-ul {
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  
-  /*position: fixed;*/
-  top: 2;
-  width: 100%;
-}
-
-
-li {
-  float: left;
-  margin-top: 0;
-}
-
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  margin-top: 0;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-bottom: 2px solid transparent;
-}
-
-li a:hover {
-    color: #fff;
-    text-decoration: none;
-    border-bottom: 2px solid red;
-}
-
-
-p {
-  font-size: 18px;
-  font-family: Merriweather;
-}
-
-a {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    margin-top: 0;
-    font-weight: 400;
-    text-transform: uppercase;
-}
-
-a:hover,
-a:active {
-    text-decoration: none;
-    background-color: none;
-}
-
-a:visited {
-    text-decoration: none;
-    color: white;
-}
-
-.col {
-    float: left;
-    display: inline-block;
-}
 
